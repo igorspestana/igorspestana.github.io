@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif; /* font do google fonts */
+    font-family: 'Roboto', sans-serif;
+    /* font do google fonts */
     color: rgb(53, 53, 53);
     margin: 0;
 }
@@ -39,7 +40,8 @@ h1 {
     letter-spacing: 10px;
     font-size: 60px;
     color: black;
-    font-family: 'Oswald', sans-serif; /* font do google fonts */
+    font-family: 'Oswald', sans-serif;
+    /* font do google fonts */
     color: #150054;
 }
 
@@ -51,24 +53,35 @@ h2 {
     font-style: italic;
 }
 
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0;
+}
+
+h6 {
+    margin-top: 0;
+}
+
+.jobs-list,
+.formation-list {
+    list-style: none;
+    padding-left: 25px;
+}
+
 .footer {
     background-color: black;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-}
-
-.jobs-list {
-    list-style: none;
-    padding-left: 25px;
-}
-
-h4 {
-    margin-bottom: 5px;
-}
-
-h5 {
-    font-style: italic;
-    margin-top: 0;
 }
